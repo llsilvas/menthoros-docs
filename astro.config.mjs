@@ -5,7 +5,7 @@ export default defineConfig({
   site: 'https://docs.menthoros.com',
   integrations: [
     starlight({
-      title: 'Menthoros — Ajuda',
+      title: 'Menthoros — Documentação',
       logo: { src: './src/assets/logo-menthoros.png', replacesTitle: true },
       customCss: ['./src/styles/custom.css'],
       defaultLocale: 'root',
