@@ -1,0 +1,31 @@
+---
+title: Central de Ajuda Menthoros
+description: Manuais do treinador e do atleta na plataforma Menthoros.
+template: splash
+hero:
+  tagline: Escolha o seu manual para começar.
+  image:
+    file: ../../assets/logo-menthoros-square.png
+  actions:
+    - text: Sou treinador
+      link: /treinador/01-primeiros-passos/
+      icon: right-arrow
+    - text: Sou atleta
+      link: /atleta/01-criar-conta/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Manual do Treinador" icon="rocket">
+		Cadastro da assessoria, atletas, o ciclo semanal de planos e os relatórios da assessoria.
+	</Card>
+	<Card title="Guia do Atleta" icon="seti:todo">
+		Criar conta, conectar o intervals.icu, acompanhar o dia e registrar treinos.
+	</Card>
+	<Card title="FAQ" icon="comment">
+		Dúvidas frequentes de treinador e atleta em um só lugar.
+	</Card>
+</CardGrid>
