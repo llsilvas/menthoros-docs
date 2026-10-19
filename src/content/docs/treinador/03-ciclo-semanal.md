@@ -8,7 +8,7 @@ Toda semana o ciclo é o mesmo: a IA gera os planos, você revisa e aprova, o at
 
 1. **Gerar planos** da próxima semana (individual ou em lote).
 2. **Revisar** cada plano: editar, adicionar ou excluir treinos.
-3. **Aprovar** ou **Rejeitar** com motivo. Só o plano aprovado aparece para o atleta e é enviado ao relógio.
+3. **Aprovar** ou **Rejeitar** com motivo. Só o plano aprovado aparece para o atleta e é enviado ao intervals.icu do atleta, de onde segue para o relógio conforme a marca.
 4. **Acompanhar** a execução pela Inbox: aderência, carga, sinais e check-ins.
 5. **Encerrar semana**. A revisão semanal alimenta a geração seguinte, e o ciclo recomeça.
 
@@ -27,7 +27,7 @@ A **Inbox** (Assistente do Treinador) lista os atletas à esquerda e o detalhe d
 *Inbox, aba Diagnóstico: aderência, carga, forma, ACWR e adesão por semana*
 
 ![Screenshot: Inbox - Plano](../../../assets/screenshots/coach/06-inbox-plan.jpg)
-*Inbox, aba Plano: treinos da semana com status de envio ao relógio*
+*Inbox, aba Plano: treinos da semana com status de envio ao intervals.icu*
 
 ## Gerar planos
 

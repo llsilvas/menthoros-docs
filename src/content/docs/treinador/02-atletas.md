@@ -44,12 +44,12 @@ Use a busca, o filtro de status (**Ativo**, **Atenção**, **Alerta**, **Pausado
 
 Os treinos realizados entram por quatro fontes, sem ação do treinador quando o atleta está conectado:
 
-- **intervals.icu**: o atleta autoriza a conexão no app. Os treinos aprovados também são enviados ao calendário dele e chegam ao relógio Garmin.
+- **intervals.icu**: o atleta autoriza a conexão no app. Os treinos aprovados também são enviados ao calendário dele no intervals.icu; dali chegam ao relógio conforme a marca (veja abaixo).
 - **Strava**: pelo menu do atleta, **Sincronizar Strava** importa os últimos 90 dias.
 - **Arquivo .fit**: o atleta importa pelo app.
 - **Manual**: o atleta registra no app.
 
-O status de envio de cada treino aparece como **No relógio**, **Envio pendente**, **Erro no envio** ou **Não conectado**.
+O status de envio de cada treino aparece como **No intervals.icu**, **Envio pendente**, **Erro no envio** ou **Não conectado**. **No intervals.icu** confirma o envio até o calendário do atleta; o Menthoros não confirma a chegada ao relógio.
 
 ## Perfil do atleta
 
@@ -57,6 +57,16 @@ Clique no nome do atleta para abrir o perfil: gráfico de performance (PMC), pla
 
 ![Screenshot: Perfil do atleta](../../../assets/screenshots/coach/04-athlete-profile.jpg)
 *Perfil do atleta com o gráfico de desempenho (TSS diário)*
+
+## Relógio do atleta
+
+No cabeçalho do perfil aparece a linha **Relógio**, com a marca e o modelo informados no onboarding (marca informada, não confirmada), um chip de posicionamento e um resumo do que esperar:
+
+- **Suportado** (Garmin): o treino aprovado chega ao relógio se o atleta ligou a conexão Garmin e o upload de treinos planejados no intervals.icu.
+- **Compatível via app parceiro** (Apple Watch): o treino só chega ao relógio por um app no iPhone do atleta, e o envio pode ser manual.
+- **Ainda não coberto**: o Menthoros não afirma que o treino chega ao relógio.
+
+Clique em **O que pedir ao atleta** para ver o passo a passo da marca, em leitura, para orientar o atleta. Sem onboarding preenchido aparece **Relógio não informado**; se a consulta falhar, **Relógio indisponível**.
 
 ## Contrato e mensalidades do atleta
 
